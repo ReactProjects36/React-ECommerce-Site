@@ -1,0 +1,19 @@
+.nav-bar {
+  background: #e3f2fd; /* Light blue background */
+  box-shadow: inset 0px 49px 42px -34px rgba(55, 107, 212, 1); /* Subtle shadow */
+  width: 100%;
+}
+
+.nav-bar a {
+  color: #1a237e; /* Default link color (indigo) */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease, border 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-bar a:hover {
+  color: #317ce6; /* White text color on hover */
+}
+
+.nav-bar a.nav-link.active {
+  color: #4a90e2;
+}
